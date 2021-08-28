@@ -2,7 +2,7 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var txtOutput = document.querySelector("#txt-output");
-var errorOuput = document.querySelector("#error-output");
+var errorOuput = document.querySelector(".error-output");
 var serverURL = "https://api.funtranslations.com/translate/groot.json"
 
 function getTranslationURL(text) {
