@@ -2,7 +2,7 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var txtOutput = document.querySelector("#txt-output");
-var serverURL = "https://api.funtranslations.com/translate/minion.json"
+var serverURL = "https://api.funtranslations.com/translate/groot.json"
 
 function getTranslationURL(text) {
     return serverURL + "?" + "text=" + text
@@ -10,7 +10,7 @@ function getTranslationURL(text) {
 
 
 function clickEventHandler() {
-    // txtOutput.innerText ="banana translatin :" + txtInput.value;
+    // txtOutput.innerText ="groot translatin :" + txtInput.value;
     var inputTxt = txtInput.value;
 
 
